@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v7.0.0/dist/aframe-extras.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+    </head>
+    <style>
+        .btn-back {
+            display: block;
+            margin: 10px;
+            padding: 15px 25px;
+            background: linear-gradient(to right, #172ea0, #9d26d3);
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 0px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-weight: bold;
+            font-size: 1rem;
+            position: relative;
+            z-index: 10;
+            text-align: center;
+        }
+
+        .btn-back:hover {
+            background: linear-gradient(to right, #fe9707, #ffe647);
+            color:black;
+        }
+    </style>
+    <body>
+        <a href="website.html" class="btn-back">Back</a>
+        <a-scene mindar-image="imageTargetSrc: ./targets/targets1.mind; maxTrack: 10" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+        <a-assets>
+            <a-asset-item id="fighter_plane" src="./assets/fighter_plane/scene.gltf"></a-asset-item>
+            <a-asset-item id="watermelon_plane" src="./assets/watermelon_plane/scene.gltf"></a-asset-item>
+            <a-asset-item id="gothambomber_plane" src="./assets/gothambomber_plane/scene.gltf"></a-asset-item>
+            <a-asset-item id="war_plane" src="./assets/war_plane/scene.gltf"></a-asset-item>
+            <a-asset-item id="gotha_uwd_plane" src="./assets/gotha_uwd_plane/scene.gltf"></a-asset-item>
+            <a-asset-item id="ww1_plane" src="./assets/ww1_plane/scene.gltf"></a-asset-item>
+            <a-asset-item id="aeg_plane" src="./assets/aeg_plane/scene.gltf"></a-asset-item>
+            <a-asset-item id="rustborn_plane" src="./assets/rustborn_plane/scene.gltf"></a-asset-item>
+            <a-asset-item id="koi_fish_plane" src="./assets/koi_fish_plane/scene.gltf"></a-asset-item>
+            <a-asset-item id="fortnite_plane" src="./assets/fortnite_plane/scene.gltf"></a-asset-item>
+
+            <a-image id="fighter" src="./card/1.png"></a-image>
+            <a-image id="watermelon" src="./card/2.png"></a-image>
+            <a-image id="gothambomber" src="./card/3.png"></a-image>
+            <a-image id="war" src="./card/4.png"></a-image>
+            <a-image id="gotha_uwd" src="./card/5.png"></a-image>
+            <a-image id="ww1" src="./card/6.png"></a-image>
+            <a-image id="aeg" src="./card/7.png"></a-image>
+            <a-image id="rustborn" src="./card/8.png"></a-image>
+            <a-image id="koi_fish" src="./card/9.png"></a-image>
+            <a-image id="fortnite" src="./card/10.png"></a-image>
+        </a-assets>
+        <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+            <a-entity mindar-image-target="targetIndex: 0">
+                <a-image scale="2 1.25" src="#fighter"></a-image> 
+                <a-gltf-model rotation="90 -0 0" position="0.15 -0.45 0.3" scale="3 3 3" src="#fighter_plane" animation-mixer>
+            </a-entity>
+            <a-entity mindar-image-target="targetIndex: 1">
+                <a-image scale="2 1.25" src="#watermelon"></a-image>
+                <a-gltf-model rotation="90 -0 0" position="0.15 -0.45 0.3" scale="0.01 0.01 0.01" src="#watermelon_plane" animation-mixer>
+            </a-entity>
+            <a-entity mindar-image-target="targetIndex: 2">
+                <a-image scale="2 1.25" src="#gothambomber"></a-image>
+                <a-gltf-model rotation="90 0 0 " position="0 -0.25 0" scale="0.3 0.3 0.3" src="#gothambomber_plane" animation-mixer>
+            </a-entity> 
+            <a-entity mindar-image-target="targetIndex: 3">
+                <a-image scale="2 1.25" src="#war"></a-image>
+                <a-gltf-model rotation="90 -0 0" position="0.15 -0.45 0.3" scale="0.3 0.3 0.3" src="#war_plane" animation-mixer>
+            </a-entity>
+            <a-entity mindar-image-target="targetIndex: 4">
+                <a-image scale="2 1.25" src="#gotha_uwd"></a-image>
+                <a-gltf-model rotation="90 0 0" position="0.15 -0.45 0.5" scale="18 18 18" src="#gotha_uwd_plane" animation-mixer>
+            </a-entity>
+            <a-entity mindar-image-target="targetIndex: 5">
+                <a-image scale="2 1.25" src="#ww1_plane"></a-image>
+                <a-gltf-model rotation="0 0 0 " position="0 0 0" scale="0.008 0.008 0.008" src="#ww1_plane" animation-mixer>
+            </a-entity> 
+            <a-entity mindar-image-target="targetIndex: 6">
+                <a-image scale="2 1.25" src="#aeg"></a-image>
+                <a-gltf-model rotation="180 90 90" position="0.15 -0.35 0.5" scale="1 1 1" src="#aeg_plane" animation-mixer>
+            </a-entity> 
+            <a-entity mindar-image-target="targetIndex: 7">
+                <a-image scale="2 1.25" src="#rustborn"></a-image>
+                <a-gltf-model rotation="-90 -180 0" position="0.15 -0.35 0.3" scale="0.0035 0.0035 0.0035" src="#rustborn_plane" animation-mixer>
+            </a-entity>
+            <a-entity mindar-image-target="targetIndex: 8">
+                <a-image scale="2 1.25" src="#koi_fish"></a-image>
+                <a-gltf-model rotation="90 0 0" position="0.15 -0.25 0.8" scale="0.65 0.65 0.65" src="#koi_fish_plane" animation-mixer>
+            </a-entity>
+            <a-entity mindar-image-target="targetIndex: 9">
+                <a-image scale="2 1.25" src="#fortnite"></a-image>
+                <a-gltf-model rotation="90 0 0" position="0.15 -0.25 0.3" scale="0.75 0.75 0.75" src="#fortnite_plane" animation-mixer>
+            </a-entity>
+        </a-scene>
+    </body>
+</html>

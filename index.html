@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layar Pembuka</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="splash-screen">
+        <div class="typing-container">
+            <p class="typing" id="typing-text">Hi, Welcome!</p>
+        </div>
+    </div>
+    <div id="splash-screen2" style="display: none;">
+        <img id="splash1" src="./splash1.png" alt="Logo 1" class="fade-in">
+        <img id="splash2" src="./splash2.png" alt="Logo 2" class="fade-out">
+    </div>
+    <div id="splash-screen3" style="display: none;">
+        <!-- Splash screen tambahan -->
+    </div>
+    <div id="main-content">
+        <!-- Konten utama di sini -->
+    </div>
+    <script>
+        function typeWriter(text, element, delay) {
+            let i = 0;
+            function type() {
+                if (i < text.length) {
+                    element.innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(type, delay);
+                }
+            }
+            type();
+        }
+
+        // Mengetik teks pada splash screen pertama
+        document.addEventListener("DOMContentLoaded", function() {
+            const textElement = document.getElementById("typing-text");
+            const text = textElement.textContent;
+            textElement.textContent = '';
+            typeWriter(text, textElement, 100);
+
+            setTimeout(function() {
+                document.getElementById('splash-screen').classList.add('fade-out');
+                document.getElementById('splash-screen').style.display = 'none';
+                document.getElementById('splash-screen2').style.display = 'flex';
+            }, 3000);
+        });
+
+        // Transisi dari gambar pertama ke gambar kedua
+        setTimeout(function() {
+            document.getElementById('splash1').classList.remove('fade-in');
+            document.getElementById('splash1').classList.add('fade-out');
+            document.getElementById('splash2').classList.remove('fade-out');
+            document.getElementById('splash2').classList.add('fade-in');
+        }, 5000);
+
+        // Tambahkan kelas fade-out pada splash screen kedua dan alihkan setelah 7 detik
+        setTimeout(function() {
+            document.getElementById('splash-screen2').classList.add('fade-out');
+            document.getElementById('splash-screen2').style.display = 'none';
+            document.getElementById('splash-screen3').style.display = 'flex';
+        }, 8000);
+
+        // Alihkan ke dashboard setelah 10 detik
+        setTimeout(function() {
+            window.location.href = "website.html";
+        }, 10000);
+    </script>
+</body>
+</html>

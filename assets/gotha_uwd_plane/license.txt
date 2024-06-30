@@ -1,0 +1,11 @@
+Model Information:
+* title:	Stylized Gotha UWD plane
+* source:	https://sketchfab.com/3d-models/stylized-gotha-uwd-plane-618b0adc2df1477c80ea3a27247ca196
+* author:	StijnMahieu (https://sketchfab.com/StijnMahieu)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Stylized Gotha UWD plane" (https://sketchfab.com/3d-models/stylized-gotha-uwd-plane-618b0adc2df1477c80ea3a27247ca196) by StijnMahieu (https://sketchfab.com/StijnMahieu) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

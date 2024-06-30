@@ -1,0 +1,11 @@
+Model Information:
+* title:	Stylized Interbellum rustborn plane
+* source:	https://sketchfab.com/3d-models/stylized-interbellum-rustborn-plane-18148ea4dfec4038bf5c263d996a94c5
+* author:	Alexander Verbruggen (https://sketchfab.com/AlexanderVerbruggen)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Stylized Interbellum rustborn plane" (https://sketchfab.com/3d-models/stylized-interbellum-rustborn-plane-18148ea4dfec4038bf5c263d996a94c5) by Alexander Verbruggen (https://sketchfab.com/AlexanderVerbruggen) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

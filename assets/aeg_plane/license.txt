@@ -1,0 +1,11 @@
+Model Information:
+* title:	Stylized plane - AEG G.IV
+* source:	https://sketchfab.com/3d-models/stylized-plane-aeg-giv-7c333cf28060456e8923ad6bad5082cb
+* author:	João Desager (https://sketchfab.com/Joao_Desager)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Stylized plane - AEG G.IV" (https://sketchfab.com/3d-models/stylized-plane-aeg-giv-7c333cf28060456e8923ad6bad5082cb) by João Desager (https://sketchfab.com/Joao_Desager) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

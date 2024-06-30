@@ -1,0 +1,11 @@
+Model Information:
+* title:	WarMelon plane
+* source:	https://sketchfab.com/3d-models/warmelon-plane-18e8e405446849afb22b3760d3c73a31
+* author:	irisreynders (https://sketchfab.com/irisreynders)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "WarMelon plane" (https://sketchfab.com/3d-models/warmelon-plane-18e8e405446849afb22b3760d3c73a31) by irisreynders (https://sketchfab.com/irisreynders) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
